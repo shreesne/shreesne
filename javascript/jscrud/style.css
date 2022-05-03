@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: green;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: azure;
+  }
+
+.matchText{  
+  border: solid thin;
+  
+  background-color: greenyellow;
+}
