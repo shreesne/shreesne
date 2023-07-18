@@ -1,0 +1,8 @@
+H:\shreesne\.Net\firstconsole\bin\Debug\firstconsole.exe.config
+H:\shreesne\.Net\firstconsole\bin\Debug\firstconsole.exe
+H:\shreesne\.Net\firstconsole\bin\Debug\firstconsole.pdb
+H:\shreesne\.Net\firstconsole\obj\Debug\sneha.csproj.AssemblyReference.cache
+H:\shreesne\.Net\firstconsole\obj\Debug\sneha.csproj.SuggestedBindingRedirects.cache
+H:\shreesne\.Net\firstconsole\obj\Debug\sneha.csproj.CoreCompileInputs.cache
+H:\shreesne\.Net\firstconsole\obj\Debug\firstconsole.exe
+H:\shreesne\.Net\firstconsole\obj\Debug\firstconsole.pdb

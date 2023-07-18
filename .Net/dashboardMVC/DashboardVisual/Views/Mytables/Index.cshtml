@@ -1,0 +1,207 @@
+﻿@model IEnumerable<DashboardVisual.Models.Mytable>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div>
+
+
+@*<table class="table" style="display:none" >
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.End_year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Intensity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sector)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Topic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Insight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Region)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Start_year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Impact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Added)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Published)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Relevance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pestle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Likelihood)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.End_year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intensity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sector)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Topic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Insight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Region)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Start_year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Impact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Added)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Published)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Relevance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pestle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Likelihood)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
+
+</div>
+
+
+        @*<div class="row">
+            <div class="col-lg-12">
+                Filter By Year:
+
+                <input type="text" value="" data-slider-min="1900"
+                       data-slider-max="2016" data-slider-step="1"
+                       data-slider-value="[2000,2016]" data-slider-tooltip="show"
+                       data-slider-handle="round" id="sld" style="width:100%">
+
+            </div>
+        </div>*@
+
+
+
+
+       
+
+        <div class="row">
+
+    <select id='topic'>             
+    </select>
+
+
+
+
+            <h2>Test Dashboard</h2>
+            <div class="col-md-4 chartMain">
+                <h4>Reserves by region</h4>
+                <div id="pieChart"><div id="pieChart_loading" class="loading_chart"></div></div>
+
+                <svg id="chart" preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200"></svg>
+
+            </div>
+            <div class="col-md-4 chartMain" style="scrol">
+                <h4>Region Wise Intensity</h4>
+                <div id="barChart"><div id="barChart_loading" class="loading_chart"></div></div>
+            </div>
+            <div class="col-md-4 chartMain">
+                <h4>Trend by country</h4>
+                <div id="lineChart_Reserves"><div class="loading_chart"></div></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <svg id="dotChart" width="1000" height="800"></svg>
+            
+            
+
+        </div>
+
+
+@section scripts
+    {   
+    @*<script type="text/javascript" src="@Url.Content("~/script/chart.js")"></script>*@
+    @*<script type="text/javascript" src="@Url.Content("~/script/load.js")"></script>*@
+    @*<script src="http://d3js.org/d3.v4.js"></script>*@
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alasql@3"></script>
+    <script type="text/javascript" src="@Url.Content("~/script/chart.js")"></script>
+
+
+
+    
+}
+
+
+
