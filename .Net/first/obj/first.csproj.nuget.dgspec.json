@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swatff\\Desktop\\sneha\\.Net\\first\\first.csproj": {}
+    "D:\\snehaRepo\\shreesne\\.Net\\first\\first.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swatff\\Desktop\\sneha\\.Net\\first\\first.csproj": {
+    "D:\\snehaRepo\\shreesne\\.Net\\first\\first.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swatff\\Desktop\\sneha\\.Net\\first\\first.csproj",
+        "projectUniqueName": "D:\\snehaRepo\\shreesne\\.Net\\first\\first.csproj",
         "projectName": "first",
-        "projectPath": "C:\\Users\\swatff\\Desktop\\sneha\\.Net\\first\\first.csproj",
-        "packagesPath": "C:\\Users\\swatff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swatff\\Desktop\\sneha\\.Net\\first\\obj\\",
+        "projectPath": "D:\\snehaRepo\\shreesne\\.Net\\first\\first.csproj",
+        "packagesPath": "C:\\Users\\sneha\\.nuget\\packages\\",
+        "outputPath": "D:\\snehaRepo\\shreesne\\.Net\\first\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\swatff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sneha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,16 +49,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

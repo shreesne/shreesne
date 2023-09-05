@@ -7,11 +7,14 @@ namespace first
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
             Program obj = new Program();
-            var abc=obj.Add(10, 100018187);
+
+            var abc =obj.Add(10, 10);
+
             Console.WriteLine("result is"+ abc);
 
-            var abc1 = obj.Add("sunday-", "daru");
+            var abc1 = obj.Add("sunday-", "fun");
             Console.WriteLine("result is" + abc1);
         }
 
