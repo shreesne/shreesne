@@ -14,7 +14,7 @@ namespace first
 
             Console.WriteLine("result is"+ abc);
 
-            var abc1 = obj.Add("sunday-", "fun");
+            var abc1 = obj.Add("sunday-", "enjoy");
             Console.WriteLine("result is" + abc1);
         }
 
